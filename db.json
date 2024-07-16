@@ -5,7 +5,10 @@
         "name": "Raffles The Palm Resort",
         "location": "Dubai",
         "rating":4.5,
-        "accesibilityInfo": "Braille Menus"
+        "accesibilityInfo": "Braille Menus",
+        "emergencyServices": {
+            "ambulance": 911
+        }
         
     },
     {
@@ -13,21 +16,32 @@
         "name": "Wildlife Safari",
         "location": "Maasai Mara",
         "rating": 4.7,
-        "accesibilityInfo": "Accesible Tour Vehicles"
+        "accesibilityInfo": "Accesible Tour Vehicles",
+        "emergencyServices": {
+            "ambulance": 911
+
+        }
     },
     {
         "id": 3,
         "name": "Alppine Mountain Village Resort",
         "location": "Tenesse",
         "rating": 4.0,
-        "accesibilityInfo": "Visual Alert Sytems"
+        "accesibilityInfo": "Visual Alert Sytems",
+        "emergencyServices": {
+            "ambulance": 112
+        }
     },
     {
         "id": 4,
         "name": "Baobab Hotel",
         "location": "Diani",
         "rating": 4.5,
-        "accesibilityInfo": "Wheel Chair Ramps"
+        "accesibilityInfo": "Wheel Chair Ramps",
+        "emergencyServices": {
+            "ambulance": 911
+
+        }
     },
     {
 
@@ -35,7 +49,11 @@
         "name": "Jaz Pyramids Resort",
         "location": "Cairo",
         "rating": 4.2,
-        "accesibilityInfo": "Handicap Parking Spaces"
+        "accesibilityInfo": "Handicap Parking Spaces",
+        "emergencyServices": {
+            "ambulance": 123
+
+        }
     }
 ]
 }
