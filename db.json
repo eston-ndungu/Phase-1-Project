@@ -6,7 +6,7 @@
         "description": "The city that never sleeps",
         "accesible": true,
         "transportation": ["Subway", "Bus", "Taxi"],
-        "accoodation": ["Hotel","Hostel", "Airbnb"]
+        "accomodation": ["Hotel","Hostel", "Airbnb"]
     },
     {
         "id": 2,
@@ -14,7 +14,7 @@
         "description": "The city of lights",
         "accesible": true,
         "transportation": ["Metro", "Bus", "Taxi"],
-        "accoodation": ["Hotel","Hostel", "Airbnb"]
+        "accomodation": ["Hotel","Hostel", "Airbnb"]
     },
     {
         "id": 3,
@@ -22,31 +22,7 @@
         "description": "Capital City of Japan",
         "accesible": true,
         "transportation": ["Subway", "Bus", "Taxi"],
-        "accoodation": ["Hotel","Hostel", "Airbnb"]
-    }
-],
-"emrgencyServices": [
-    {
-        "id": 1,
-        "city": "New York City",
-        "police": "NYPD",
-        "hospital": "Mount Sinai Hospital"
-    },
-    {
-        "id": 2,
-        "city": "Paris",
-        "police": "Police Nationale",
-        "hospital": "Pari General Hospital"
-    },
-    {
-        "id": 3,
-        "city": "Tokyo",
-        "police": "Tokyo Metropolitan Police Department",
-        "hospital": "Tokyo Medical University Hospital"
+        "accomodation": ["Hotel","Hostel", "Airbnb"]
     }
 ]
-    }
-    
-
-
-
+}

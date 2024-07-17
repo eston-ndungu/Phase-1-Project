@@ -1,15 +1,24 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <title>Accesible Travel Planner</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Accessible Travel Planner</title>
 </head>
 <body>
-    <div id="destinations-container"></div>
-    <div id="emergency-services-container"></div>
-    <script src="./index.js"></script>
+    <div class="container">
+        <div class="destinations-list">
+            <h2>Destinations</h2>
+            <ul id="destinations-list"></ul>
+        </div>
+        <div class="destination-details">
+            <h2>Destination Details</h2>
+            <div id="destination-details"></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
 
