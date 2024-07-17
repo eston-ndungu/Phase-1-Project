@@ -7,7 +7,7 @@
         "accesible": true,
         "transportation": ["Subway", "Bus", "Taxi"],
         "accomodation": ["Hotel","Hostel", "Airbnb"]
-    },
+    }, 
     {
         "id": 2,
         "name": "Paris",
@@ -15,14 +15,17 @@
         "accesible": true,
         "transportation": ["Metro", "Bus", "Taxi"],
         "accomodation": ["Hotel","Hostel", "Airbnb"]
+       
     },
     {
         "id": 3,
         "name": "Tokyo",
         "description": "Capital City of Japan",
         "accesible": true,
+
         "transportation": ["Subway", "Bus", "Taxi"],
-        "accomodation": ["Hotel","Hostel", "Airbnb"]
+        "accomodation": ["Hotel","Hostel", "Airbnb"],
+
     },
     {
 
@@ -30,6 +33,7 @@
         "name": "Egypt",
         "description": "Capital City of Japan",
         "accesible": true,
+        
         "transportation": ["Subway", "Bus", "Taxi"],
         "accomodation": ["Hotel","Hostel", "Airbnb"]
     },
@@ -39,6 +43,7 @@
         "name": "Nairobi",
         "description": "The City of Cool Waters",
         "accesible": true,
+        
         "transportation": ["Subway", "Bus", "Taxi"],
         "accomodation": ["Hotel","Hostel", "Airbnb"]
     },
@@ -48,6 +53,7 @@
         "image": "https://images.unsplash.com/photo-1528702748617-c64d49f918af?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZHViYWl8ZW58MHx8MHx8fDA%3D",
         "description": "Jewel of the Desert",
         "accesible": true,
+        
         "transportation": ["Subway", "Bus", "Taxi"],
         "accomodation": ["Hotel","Hostel", "Airbnb"]
     },
@@ -80,6 +86,7 @@
         "name": "Bogota",
         "description": "Capital City of Colombia",
         "accesible": true,
+
         "transportation": ["Subway", "Bus", "Taxi"],
         "accomodation": ["Hotel","Hostel", "Airbnb"]
     }
