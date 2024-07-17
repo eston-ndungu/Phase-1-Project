@@ -1,4 +1,4 @@
-// index.js
+
 
 document.addEventListener('DOMContentLoaded', function() {
     const destinationsList = document.getElementById('destinations-list');
@@ -32,8 +32,5 @@ document.addEventListener('DOMContentLoaded', function() {
             <p><strong>Accommodation:</strong> ${destination.accomodation.join(', ')}</p>
         `;
     }
-;
-
-
 
 
