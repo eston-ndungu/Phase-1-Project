@@ -1,97 +1,101 @@
 {
-"destinations": [
-    {
-        "id": 1,
-        "name": "New York City",
-        "description": "The city that never sleeps",
-        "accesible": true,
-        "transportation": ["Subway", "Bus", "Taxi"],
-        "accomodation": ["Hotel","Hostel", "Airbnb"]
-    }, 
-    {
-        "id": 2,
-        "name": "Paris",
-        "description": "The city of lights",
-        "accesible": true,
-        "transportation": ["Metro", "Bus", "Taxi"],
-        "accomodation": ["Hotel","Hostel", "Airbnb"]
-       
-       
-    },
-    {
-        "id": 3,
-        "name": "Tokyo",
-        "description": "Capital City of Japan",
-        "accesible": true,
-
-        "transportation": ["Subway", "Bus", "Taxi"],
-        "accomodation": ["Hotel","Hostel", "Airbnb"]
-
-    },
-    {
-
-        "id": 4,
-        "name": "Egypt",
-        "description": "Capital City of Japan",
-        "accesible": true,
-        
-        "transportation": ["Subway", "Bus", "Taxi"],
-        "accomodation": ["Hotel","Hostel", "Airbnb"]
-    },
-    {
-
-        "id": 5,
-        "name": "Nairobi",
-        "description": "The City of Cool Waters",
-        "accesible": true,
-        
-        "transportation": ["Subway", "Bus", "Taxi"],
-        "accomodation": ["Hotel","Hostel", "Airbnb"]
-    },
-    {
-        "id": 6,
-        "name": "Dubai",
-        "image": "https://images.unsplash.com/photo-1528702748617-c64d49f918af?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZHViYWl8ZW58MHx8MHx8fDA%3D",
-        "description": "Jewel of the Desert",
-        "accesible": true,
-        
-        "transportation": ["Subway", "Bus", "Taxi"],
-        "accomodation": ["Hotel","Hostel", "Airbnb"]
-    },
-    {
-        "id": 7,
-        "name": "Zanzibar",
-        "description": "Tropical paradise off the coast of Tanzania",
-        "accesible": true,
-        "transportation": ["Subway", "Bus", "Taxi"],
-        "accomodation": ["Hotel","Hostel", "Airbnb"]
-    },
-    {
-        "id": 8,
-        "name": "Cape Town",
-        "description": "Cosmopolitan city in South Africa",
-        "accesible": true,
-        "transportation": ["Subway", "Bus", "Taxi"],
-        "accomodation": ["Hotel","Hostel", "Airbnb"]
-    },
-    {
-        "id": 9,
-        "name": "Marrakech",
-        "description": "Cultural hub in Morocco",
-        "accesible": true,
-        "transportation": ["Subway", "Bus", "Taxi"],
-        "accomodation": ["Hotel","Hostel", "Airbnb"]
-    },
-    {
-        "id": 10,
-        "name": "Bogota",
-        "description": "Capital City of Colombia",
-        "accesible": true,
-
-        "transportation": ["Subway", "Bus", "Taxi"],
-        "accomodation": ["Hotel","Hostel", "Airbnb"]
-    }
-
+    "destinations": [
+        {
+            "id": 1,
+            "name": "New York City",
+            "image": "https://images.unsplash.com/photo-1556541845-443e0c6e8e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG5ldyUyMHlvcmslMjBjaXR5fGVufDB8fDB8fHww",
+            "description": "The city that never sleeps",
+            "accesible": true,
+            "transportation": ["Subway", "Bus", "Taxi"],
+            "accomodation": ["Hotel","Hostel", "Airbnb"]
+        }, 
+        {
+            "id": 2,
+            "name": "Paris",
+            "image":"https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGFyaXN8ZW58MHx8MHx8fDA%3D",
+            "description": "The City of Love ",
+            "accesible": true,
+            "transportation": ["Metro", "Bus", "Taxi"],
+            "accomodation": ["Hotel","Hostel", "Airbnb"]
+           
+           
+        },
+        {
+            "id": 3,
+            "name": "Tokyo",
+            "image": "https://images.unsplash.com/photo-1601042879364-f3947d3f9c16?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dG9reW98ZW58MHx8MHx8fDA%3D",
+            "description": "Capital City of Japan",
+            "accesible": true,
+            "transportation": ["Subway", "Bus", "Taxi"],
+            "accomodation": ["Hotel","Hostel", "Airbnb"]
     
-]
-}
+        },
+        {
+    
+            "id": 4,
+            "name": "Cairo",
+            "image": "https://images.unsplash.com/photo-1572252009286-268acec5ca0a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2Fpcm98ZW58MHx8MHx8fDA%3D",
+            "description": "The City of a thousand Minarets",
+            "accesible": true,
+            "transportation": ["Subway", "Bus", "Taxi"],
+            "accomodation": ["Hotel","Hostel", "Airbnb"]
+        },
+        {
+    
+            "id": 5,
+            "name": "Nairobi",
+            "image": "https://images.unsplash.com/photo-1611144727915-ef30a08aaeb3?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "description": "The City of Cool Waters",
+            "accesible": true,
+            "transportation": ["Subway", "Bus", "Taxi"],
+            "accomodation": ["Hotel","Hostel", "Airbnb"]
+        },
+        {
+            "id": 6,
+            "name": "Dubai",
+            "image": "https://images.unsplash.com/photo-1528702748617-c64d49f918af?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZHViYWl8ZW58MHx8MHx8fDA%3D",
+            "description": "Jewel of the Desert",
+            "accesible": true,
+            "transportation": ["Subway", "Bus", "Taxi"],
+            "accomodation": ["Hotel","Hostel", "Airbnb"]
+        },
+        {
+            "id": 7,
+            "name": "Zanzibar",
+            "image": "https://images.unsplash.com/photo-1575999080555-3f7a698dd8d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHphbnppYmFyfGVufDB8fDB8fHww",
+            "description": "Tropical paradise off the coast of Tanzania",
+            "accesible": true,
+            "transportation": ["Subway", "Bus", "Taxi"],
+            "accomodation": ["Hotel","Hostel", "Airbnb"]
+        },
+        {
+            "id": 8,
+            "name": "Cape Town",
+            "image": "https://images.unsplash.com/photo-1529528070131-eda9f3e90919?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcGUlMjB0b3dufGVufDB8fDB8fHww",
+            "description": "Cosmopolitan City in South Africa",
+            "accesible": true,
+            "transportation": ["Subway", "Bus", "Taxi"],
+            "accomodation": ["Hotel","Hostel", "Airbnb"]
+        },
+        {
+            "id": 9,
+            "name": "Marrakech",
+            "image": "https://plus.unsplash.com/premium_photo-1699533136508-0822d8a77814?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fG1hcnJha2V0Y2h8ZW58MHx8MHx8fDA%3D",
+            "description": "Cultural Hub in Morocco",
+            "accesible": true,
+            "transportation": ["Subway", "Bus", "Taxi"],
+            "accomodation": ["Hotel","Hostel", "Airbnb"]
+        },
+        {
+            "id": 10,
+            "name": "Bogota",
+            "image": "https://images.unsplash.com/photo-1568632234165-47bb34c35708?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ym9nb3RhfGVufDB8fDB8fHww",
+            "description": "Capital City of Colombia",
+            "accesible": true,
+            "transportation": ["Subway", "Bus", "Taxi"],
+            "accomodation": ["Hotel","Hostel", "Airbnb"]
+        }
+    
+        
+    ]
+    }

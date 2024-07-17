@@ -1,132 +1,60 @@
-/* body {
-    font-family: 'Times New Roman', Times, serif;
+
+body, h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
-    background-image: url('images/background.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-}
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header h1 {
-    font-size: 24px;
-    margin: 0;
-}
-
-.nav-links {
-    text-align: center;
-}
-
-.nav-links div {
-    display: inline-block;
-    margin: 0 10px;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    font-size: 16px;
-}
-
-.nav-links a:hover {
-    color: #ffd700;
-}
-
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin: 20px auto;
-}
-
-.destinations-list {
-    width: 30%;
-    
-}
-
-.destination-details {
-    width: 65%;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    cursor: pointer;
-    padding: 10px;
-    margin-bottom: 5px;
-    background-color: #f0f0f0;
-}
-
-li:hover {
-    background-color: #e0e0e0;
-}
-
-.destination-details {
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-}
- */
-
-
-/* styles.css */
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+    color: #333;
 }
 
 .container {
-    width: 80%;
-    margin: auto;
+    max-width: 1200px; 
+    margin: 0 auto;
     padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex; 
 }
 
 header {
-    background-color: #333;
+    background-color: #007bff;
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    width: 100%; 
 }
 
 .nav-links {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
+    width: 100%; 
 }
 
 .nav-links div {
     margin: 0 10px;
 }
 
-.destinations-list {
-    float: left;
-    width: 30%;
-    padding-right: 20px;
-    box-sizing: border-box;
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.destination-details {
-    float: left;
-    width: 70%;
+.destinations-list {
+    flex: 1; 
+    margin-right: 20px; 
+}
+
+.destinations-list h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
 }
 
 .destinations-list ul {
@@ -136,17 +64,40 @@ header {
 
 .destinations-list li {
     cursor: pointer;
-    padding: 5px 10px;
-    background-color: #f0f0f0;
-    margin-bottom: 5px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+}
+
+.destinations-list li:last-child {
+    border-bottom: none;
 }
 
 .destinations-list li:hover {
-    background-color: #ddd;
+    background-color: #f2f2f2;
 }
 
-.destination-details img {
+.destination-details {
+    flex: 2; 
+}
+
+.destination-details h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+.details-container {
+    margin-top: 10px;
+}
+
+.details-container img {
     max-width: 100%;
     height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.details-container p {
     margin-bottom: 10px;
 }
