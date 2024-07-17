@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f2f2f2;
-    color: #333;
+    color: black;
 }
 
 .container {
@@ -23,7 +23,7 @@ body {
 }
 
 header {
-    background-color: #007bff;
+    background-color: black;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -42,7 +42,7 @@ header {
 }
 
 .nav-links a {
-    color: #fff;
+    color: red;
     text-decoration: none;
     font-weight: bold;
 }
