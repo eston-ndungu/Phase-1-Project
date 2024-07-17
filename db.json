@@ -16,6 +16,7 @@
         "transportation": ["Metro", "Bus", "Taxi"],
         "accomodation": ["Hotel","Hostel", "Airbnb"]
        
+       
     },
     {
         "id": 3,
@@ -24,7 +25,7 @@
         "accesible": true,
 
         "transportation": ["Subway", "Bus", "Taxi"],
-        "accomodation": ["Hotel","Hostel", "Airbnb"],
+        "accomodation": ["Hotel","Hostel", "Airbnb"]
 
     },
     {

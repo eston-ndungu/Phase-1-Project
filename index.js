@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <p><strong>Accessible:</strong> ${destination.accesible ? 'Yes' : 'No'}</p>
             <p><strong>Transportation:</strong> ${destination.transportation.join(', ')}</p>
             <p><strong>Accommodation:</strong> ${destination.accomodation.join(', ')}</p>
+           
          </div>
         `;
     }
