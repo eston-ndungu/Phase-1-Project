@@ -14,7 +14,7 @@
                 "fire": "911",
                 "medical": {
                     "nearest_hospital": "NewYork-Presbyterian Hospital",
-                    "emergency_contact": "911"
+                    "ambulance_contact": "911"
                 }
             }
             
@@ -33,7 +33,7 @@
                 "fire": "112",
                 "medical": {
                     "nearest_hospital": "Hôpital Européen Georges Pompidou",
-                    "emergency_contact": "112"
+                    "ambulance_contact": "112"
                 }
             }  
            
@@ -52,7 +52,7 @@
                 "fire": "119",
                 "medical": {
                     "nearest_hospital": "The University of Tokyo Hospital",
-                    "emergency_contact": "119"
+                    "ambulance_contact": "119"
                 }
             }
     
@@ -72,7 +72,7 @@
                 "fire": "180",
                 "medical": {
                     "nearest_hospital": "Qasr El Ainy Hospital",
-                    "emergency_contact": "180"
+                    "ambulance_contact": "180"
                 }
             }
         },
@@ -91,7 +91,7 @@
                 "fire": "999",
                 "medical": {
                     "nearest_hospital": "Kenyatta National Hospital",
-                    "emergency_contact": "999"
+                    "ambulance_contact": "999"
                 }
             }
         },
@@ -109,7 +109,7 @@
                 "fire": "999",
                 "medical": {
                     "nearest_hospital": "Rashid Hospital",
-                    "emergency_contact": "999"
+                    "ambulance _contact": "999"
                 }
             }
             
@@ -128,7 +128,7 @@
                 "fire": "114",
                 "medical": {
                     "nearest_hospital": "Mnazi Mmoja Hospital",
-                    "emergency_contact": "114"
+                    "ambulance_contact": "114"
                 }
             }
         },
@@ -146,7 +146,7 @@
                 "fire": "10177",
                 "medical": {
                     "nearest_hospital": "Groote Schuur Hospital",
-                    "emergency_contact": "10177"
+                    "ambulance _contact": "10177"
                 }
             }
         },
@@ -164,7 +164,7 @@
             "fire": "15",
             "medical": {
             "nearest_hospital": "Centre Hospitalier Ibn Tofail",
-            "emergency_contact": "15"
+            "ambulance_contact": "15"
         }
     }
             
@@ -183,7 +183,7 @@
             "fire": "119",
             "medical": {
             "nearest_hospital": "Fundación Santa Fe de Bogotá",
-            "emergency_contact": "123"
+            "ambulance_contact": "123"
         }
     }
 
