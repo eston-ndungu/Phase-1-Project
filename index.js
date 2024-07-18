@@ -73,9 +73,13 @@ document.addEventListener('DOMContentLoaded', function() {
     function loadAboutInformation() {
         destinationDetailsDiv.innerHTML = `
             <h2>About</h2>
-            <p>This is the About section of our Accessible Travel Planner.</p>
-            <p>Include any relevant information about your service, company, or project.</p>
-            <p>You can add images, videos, or more detailed descriptions as needed.</p>
+            <p>Welcome to our accessible travel website, where we strive to ensure that everyone has the opportunity to see the globe without constraints.
+             We recognize that traveling with disabilities offers unique challenges, which is why we've created a comprehensive platform to empower and inspire.
+            </p>
+        <br>
+            <p>At Accesible Travel Planner, accessibility is more than a feature; it is a basic value. We provide thorough accessible information for a variety of destinations, lodgings, and activities across the world.
+             Whether you're planning a weekend escape or a dream vacation, our objective is to give you the tools and support you need to travel confidently and comfortably.
+             </p>
         `;
 
         // Clear destination details when showing About section
