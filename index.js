@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Fetch data from JSON file
-    fetch('db.json')
+    fetch('https://my-json-server.typicode.com/eston-ndungu/Phase-1-Project/destinations')
         .then(response => response.json())
         .then(data => {
             data.destinations.forEach(destination => {
