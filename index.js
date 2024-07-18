@@ -13,6 +13,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const destinationAccommodation = document.getElementById('destination-accommodation');
     const destinationImage = document.getElementById('destination-image');
 
+    let currentIndex = -1; // Track current selected destination index
+
     // Event listener for the "About" link
     aboutLink.addEventListener('click', function(event) {
         event.preventDefault(); // Prevent default link behavior
@@ -77,14 +79,26 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch('https://my-json-server.typicode.com/eston-ndungu/Phase-1-Project/destinations')
         .then(response => response.json())
         .then(data => {
-            data.forEach(destination => {
+            data.forEach((destination,index) => {
                 // Create list item for each destination
                 const listItem = document.createElement('li');
                 listItem.textContent = destination.name;
 
                 // Add click event listener to show details
                 listItem.addEventListener('click', function() {
-                    showDestinationDetails(destination);
+                    showDestinationDetails(destination,index);
+                });
+
+
+                 // Add mouseover event listener to highlight destination
+                 listItem.addEventListener('mouseover', function() {
+                    listItem.style.backgroundColor = '#f0f0f0';
+                    listItem.style.cursor = 'pointer'; // Change cursor to pointer
+                });
+
+                // Add mouseout event listener to remove highlight
+                listItem.addEventListener('mouseout', function() {
+                    listItem.style.backgroundColor = 'transparent';
                 });
 
                 // Append list item to the destinations list
@@ -105,6 +119,8 @@ document.addEventListener('DOMContentLoaded', function() {
         destinationAccommodation.textContent = destination.accommodation.join(', ');
         destinationImage.src = destination.image || ''; // Set image source or empty if not provided
         destinationImage.alt = `${destination.name} Image`; // Set alt text for image
+
+        
 
         let emergencyServicesHTML = `
         <h3>Emergency Services</h3>

@@ -13,6 +13,7 @@ body {
 }
     
 
+
 .container {
     max-width: 1200px; 
     margin: 0 auto;
@@ -31,9 +32,11 @@ header {
     width: 100%; 
 }
 
+
+
 .nav-links {
     display: flex;
-    justify-content: left;
+    justify-content: right;
     margin-top: 10px;
     width: 100%; 
 }
@@ -43,9 +46,10 @@ header {
 }
 
 .nav-links a {
-    color: red;
+    color: brown;
     text-decoration: none;
     font-weight: bold;
+;
 }
 
 .destinations-list {
@@ -69,19 +73,20 @@ header {
     border-bottom: 1px solid #ccc;
     transition: background-color 0.3s ease;
     font-weight: bold;
-    background-color: burlywood;
+    
 }
 
 .destinations-list li:last-child {
     border-bottom: none;
 }
 
-.destinations-list li:hover {
-    background-color: blue;
-}
+
 
 .destination-details {
     flex: 2; 
+    text-transform: uppercase;
+    color: indigo;
+    
 }
 
 .destination-details h2 {
@@ -91,8 +96,8 @@ header {
 
  .details-container {
     margin-top: 10px;
-    position: relative; /* Ensure relative positioning for absolutely positioned content */
-    overflow: hidden; /* Hide overflow to prevent scrollbars */
+    position: relative; 
+    overflow: hidden;
     height: 100%
 }
 
