@@ -9,6 +9,7 @@
             "accessibility": "Hotels with Braille Menus",
             "transportation": ["Subway", "Bus", "Taxi"],
             "accommodation": ["Hotel","Hostel", "Airbnb"]
+            
         }, 
         {
             "id": 2,
@@ -64,6 +65,7 @@
             "accessibility": "Visual Alert Sytems",
             "transportation": ["Subway", "Bus", "Taxi"],
             "accommodation": ["Hotel","Hostel", "Airbnb"]
+            
         },
         {
             "id": 7,
