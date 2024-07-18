@@ -6,6 +6,7 @@
             "image": "https://images.unsplash.com/photo-1556541845-443e0c6e8e66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG5ldyUyMHlvcmslMjBjaXR5fGVufDB8fDB8fHww",
             "description": "The city that never sleeps",
             "accesible": true,
+            "accesibility": "Hotels with Braille Menus",
             "transportation": ["Subway", "Bus", "Taxi"],
             "accomodation": ["Hotel","Hostel", "Airbnb"]
         }, 

@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const destinationName = document.getElementById('destination-name');
         const destinationDescription = document.getElementById('destination-description');
         const destinationAccessible = document.getElementById('destination-accessible');
+        const destinationAccesibility = document.getElementById('destination-accesibility')
         const destinationTransportation = document.getElementById('destination-transportation');
         const destinationAccommodation = document.getElementById('destination-accommodation');
         const destinationImage = document.getElementById('destination-image');
@@ -37,9 +38,12 @@ document.addEventListener('DOMContentLoaded', function() {
         destinationName.textContent = destination.name;
         destinationDescription.textContent = destination.description;
         destinationAccessible.textContent = destination.accesible ? 'Yes' : 'No';
+        destinationAccesibility.textContent = destination.accesibility;
         destinationTransportation.textContent = destination.transportation.join(', ');
         destinationAccommodation.textContent = destination.accomodation.join(', ');
         destinationImage.src = destination.image || ''; // Set image source or empty if not provided
         destinationImage.alt = `${destination.name} Image`; // Set alt text for image
     }
 });
+
+

@@ -1,5 +1,5 @@
 
-body, h1, h2, h3, p, ul {
+  body, h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
 }
@@ -24,7 +24,7 @@ body {
 
 header {
     background-color: black;
-    color: #fff;
+    color: grey;
     padding: 10px 0;
     text-align: center;
     width: 100%; 
@@ -100,4 +100,5 @@ header {
 
 .details-container p {
     margin-bottom: 10px;
-}
+} 
+ 
