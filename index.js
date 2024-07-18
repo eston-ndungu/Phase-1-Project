@@ -74,10 +74,10 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Fetch data from JSON file
-    fetch('https://my-json-server.typicode.com/eston-ndungu/Phase-1-Project/destinations')
+    fetch('http://localhost:3000/destinations')
         .then(response => response.json())
         .then(data => {
-            data.destinations.forEach(destination => {
+            data.forEach(destination => {
                 // Create list item for each destination
                 const listItem = document.createElement('li');
                 listItem.textContent = destination.name;
