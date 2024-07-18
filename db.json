@@ -8,7 +8,15 @@
             "accessible": true,
             "accessibility": "Hotels with Braille Menus",
             "transportation": ["Subway", "Bus", "Taxi"],
-            "accommodation": ["Hotel","Hostel", "Airbnb"]
+            "accommodation": ["Hotel","Hostel", "Airbnb"],
+            "emergency_services": {
+                "police": "911",
+                "fire": "911",
+                "medical": {
+                    "nearest_hospital": "NewYork-Presbyterian Hospital",
+                    "emergency_contact": "911"
+                }
+            }
             
         }, 
         {
@@ -19,8 +27,15 @@
             "accessible": true,
             "accessibility":"Wheel Chair Ramps",
             "transportation": ["Metro", "Bus", "Taxi"],
-            "accommodation": ["Hotel","Hostel", "Airbnb"]
-           
+            "accommodation": ["Hotel","Hostel", "Airbnb"],
+            "emergency_services": {
+                "police": "112",
+                "fire": "112",
+                "medical": {
+                    "nearest_hospital": "Hôpital Européen Georges Pompidou",
+                    "emergency_contact": "112"
+                }
+            }  
            
         },
         {
@@ -31,7 +46,15 @@
             "accessible": true,
             "accessibility": "AI technology to help with communication",
             "transportation": ["Subway", "Bus", "Taxi"],
-            "accommodation": ["Hotel","Hostel", "Airbnb"]
+            "accommodation": ["Hotel","Hostel", "Airbnb"],
+            "emergency_services": {
+                "police": "110",
+                "fire": "119",
+                "medical": {
+                    "nearest_hospital": "The University of Tokyo Hospital",
+                    "emergency_contact": "119"
+                }
+            }
     
         },
         {
@@ -43,18 +66,33 @@
             "accessible": true,
             "accessibility": "Deignated Handicap Parking Spaces",
             "transportation": ["Subway", "Bus", "Taxi"],
-            "accommodation": ["Hotel","Hostel", "Airbnb"]
+            "accommodation": ["Hotel","Hostel", "Airbnb"],
+            "emergency_services": {
+                "police": "122",
+                "fire": "180",
+                "medical": {
+                    "nearest_hospital": "Qasr El Ainy Hospital",
+                    "emergency_contact": "180"
+                }
+            }
         },
         {
     
             "id": 5,
             "name": "Nairobi",
-            "image": "https://images.unsplash.com/photo-1611144727915-ef30a08aaeb3?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "description": "The City of Cool Waters",
+            "image": "https://images.unsplash.com/photo-1669127300649-940337f1487e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmFpcm9iaXxlbnwwfHwwfHx8MA%3D%3D",
             "accessible": true,
             "accessibility": "Tour Guides for the Visually Impaired",
             "transportation": ["Subway", "Bus", "Taxi"],
-            "accommodation": ["Hotel","Hostel", "Airbnb"]
+            "accommodation": ["Hotel","Hostel", "Airbnb"],
+            "emergency_services": {
+                "police": "999",
+                "fire": "999",
+                "medical": {
+                    "nearest_hospital": "Kenyatta National Hospital",
+                    "emergency_contact": "999"
+                }
+            }
         },
         {
             "id": 6,
@@ -64,18 +102,34 @@
             "accessible": true,
             "accessibility": "Visual Alert Sytems",
             "transportation": ["Subway", "Bus", "Taxi"],
-            "accommodation": ["Hotel","Hostel", "Airbnb"]
+            "accommodation": ["Hotel","Hostel", "Airbnb"],
+            "emergency_services": {
+                "police": "999",
+                "fire": "999",
+                "medical": {
+                    "nearest_hospital": "Rashid Hospital",
+                    "emergency_contact": "999"
+                }
+            }
             
         },
         {
             "id": 7,
             "name": "Zanzibar",
-            "image": "https://images.unsplash.com/photo-1575999080555-3f7a698dd8d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHphbnppYmFyfGVufDB8fDB8fHww",
+            "image": "https://images.unsplash.com/photo-1575999502951-4ab25b5ca889?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fHphbnppYmFyfGVufDB8fDB8fHww",
             "description": "Tropical paradise off the coast of Tanzania",
             "accessible": true,
             "accessibility": "Accesible Restrooms",
             "transportation": ["Subway", "Bus", "Taxi"],
-            "accommodation": ["Hotel","Hostel", "Airbnb"]
+            "accommodation": ["Hotel","Hostel", "Airbnb"],
+            "emergency_services": {
+                "police": "112",
+                "fire": "114",
+                "medical": {
+                    "nearest_hospital": "Mnazi Mmoja Hospital",
+                    "emergency_contact": "114"
+                }
+            }
         },
         {
             "id": 8,
@@ -85,7 +139,15 @@
             "accessible": true,
             "accessibility": "Sign Lnguage Translators",
             "transportation": ["Subway", "Bus", "Taxi"],
-            "accommodation": ["Hotel","Hostel", "Airbnb"]
+            "accommodation": ["Hotel","Hostel", "Airbnb"],
+            "emergency_services": {
+                "police": "10111",
+                "fire": "10177",
+                "medical": {
+                    "nearest_hospital": "Groote Schuur Hospital",
+                    "emergency_contact": "10177"
+                }
+            }
         },
         {
             "id": 9,
@@ -95,7 +157,16 @@
             "accessible": true,
             "accessibility":"Buildings have lifts and elevators",
             "transportation": ["Subway", "Bus", "Taxi"],
-            "accommodation": ["Hotel","Hostel", "Airbnb"]
+            "accommodation": ["Hotel","Hostel", "Airbnb"],
+            "emergency_services": {
+            "police": "19",
+            "fire": "15",
+            "medical": {
+            "nearest_hospital": "Centre Hospitalier Ibn Tofail",
+            "emergency_contact": "15"
+        }
+    }
+            
         },
         {
             "id": 10,
@@ -105,7 +176,16 @@
             "accessible": true,
             "accessibility": "Wheel Chair Accesible Cars",
             "transportation": ["Subway", "Bus", "Taxi"],
-            "accommodation": ["Hotel","Hostel", "Airbnb"]
+            "accommodation": ["Hotel","Hostel", "Airbnb"],
+            "emergency_services": {
+            "police": "123",
+            "fire": "119",
+            "medical": {
+            "nearest_hospital": "Fundación Santa Fe de Bogotá",
+            "emergency_contact": "123"
+        }
+    }
+
         }
     
         

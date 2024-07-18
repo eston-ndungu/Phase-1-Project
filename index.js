@@ -1,4 +1,5 @@
 
+
 document.addEventListener('DOMContentLoaded', function() {
     const destinationsList = document.getElementById('destinations-list');
     const aboutLink = document.querySelector('a[href="#about"]');
@@ -105,6 +106,16 @@ document.addEventListener('DOMContentLoaded', function() {
         destinationImage.src = destination.image || ''; // Set image source or empty if not provided
         destinationImage.alt = `${destination.name} Image`; // Set alt text for image
 
+        let emergencyServicesHTML = `
+        <h3>Emergency Services</h3>
+        <ul>
+            <li>Police: ${destination.emergency_services.police}</li>
+            <li>Fire: ${destination.emergency_services.fire}</li>
+            <li>Nearest Hospital: ${destination.emergency_services.medical.nearest_hospital}</li>
+            <li>Emergency Contact: ${destination.emergency_services.medical.emergency_contact}</li>
+        </ul>
+    `;
+
         // Update destination details div
         destinationDetailsDiv.innerHTML = `
             <h2>${destination.name}</h2>
@@ -114,6 +125,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <p>Transportation: ${destination.transportation.join(', ')}</p>
             <p>Accommodation: ${destination.accommodation.join(', ')}</p>
             <img src="${destination.image || ''}" alt="${destination.name} Image">
+            ${emergencyServicesHTML}
         `;
     }
 
