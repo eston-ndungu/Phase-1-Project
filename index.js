@@ -95,6 +95,26 @@ document.addEventListener('DOMContentLoaded', function() {
     function loadContactInformation() {
         destinationDetailsDiv.innerHTML = `
         <h2>Contacts</h2>
+        <p>We're here to support your accessible travel journey every step of the way. Whether you have questions, feedback, or need assistance, our dedicated team is ready to help.</p>
+        <br>
+        <h3>Customer Support:<h3>
+        <p>For general inquiries and customer support, please email us at support@accessibletours.com.</p>
+        <br>
+        <h3>Accessibility Assistance:</h3>
+        <p>If you require specific accessibility information or assistance with booking accommodations, 
+        attractions, or transportation, please contact our Accessibility Specialist at accessibility@accessibletours.com.</p>
+        <br>
+        <h3>Phone:<h3>
+        <p>You can reach us by phone at +1 (555) 123-4567 during our office hours, Monday through Friday, 9:00 AM to 5:00 PM (EST).</p>
+        <br>
+        <h3>Address:<h3>
+        <p>[Accesible Travel Planner]
+           123 Accessible Way
+           Nairobi, 
+           Kenya
+        </p>
+        <br>
+        <p>Please feel free to contact us at any time. We are dedicated to making your travel experience accessible, pleasurable, and memorable.</p>
         `;
         clearDestinationDetails();
     }
