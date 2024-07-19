@@ -30,9 +30,20 @@ Accessibility Features: Implements best practices in web accessibility for all u
 
 Dedicated Support: Offers multiple contact options for customer support and accessibility assistance.
 
+## Click this link to view my website
+
+https://eston-ndungu.github.io/Phase-1-Project/
+
 
 ## Video Link
+
 https://www.loom.com/share/40cceb54682b47ca8393479418a691c6?sid=8a59f12e-17eb-4da4-948b-de925aa2ee4f
+
+
+## Author
+
+Eston Ndung`u
+
 
 
 
