@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <li>Police: ${destination.emergency_services.police}</li>
             <li>Fire: ${destination.emergency_services.fire}</li>
             <li>Nearest Hospital: ${destination.emergency_services.medical.nearest_hospital}</li>
-            <li>Emergency Contact: ${destination.emergency_services.medical.emergency_contact}</li>
+            <li>Ambulance Contact: ${destination.emergency_services.medical.ambulance_contact}</li>
         </ul>
     `;
 
