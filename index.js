@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <p>You can reach us by phone at +254 (555) 123-4567 during our office hours, Monday through Friday, 9:00 AM to 5:00 PM (EST).</p>
         <br>
         <h3>Address:</h3>
-        <p>[Accesible Travel Planner]
+        <p>Accesible Travel Planner,
            616 Spine Road,
            Nairobi, 
            Kenya
